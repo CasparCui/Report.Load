@@ -149,6 +149,7 @@
             // XlsxFileDialog
             // 
             this.XlsxFileDialog.CheckFileExists = true;
+            this.XlsxFileDialog.Filter = "Excel files|*.xlsx;*.xls|All files|*.*";
             this.XlsxFileDialog.OverwritePrompt = false;
             // 
             // Form1
