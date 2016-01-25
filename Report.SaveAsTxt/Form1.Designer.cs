@@ -71,6 +71,7 @@
             this.XlsxFilePathTextBox.Name = "XlsxFilePathTextBox";
             this.XlsxFilePathTextBox.Size = new System.Drawing.Size(357, 23);
             this.XlsxFilePathTextBox.TabIndex = 2;
+            this.XlsxFilePathTextBox.TextChanged += new System.EventHandler(this.XlsxFilePathTextBox_TextChanged);
             // 
             // ExportPathText
             // 
@@ -80,6 +81,7 @@
             this.ExportPathText.Name = "ExportPathText";
             this.ExportPathText.Size = new System.Drawing.Size(357, 23);
             this.ExportPathText.TabIndex = 3;
+            this.ExportPathText.TextChanged += new System.EventHandler(this.ExportPathText_TextChanged);
             // 
             // XlsxFileBrowser
             // 

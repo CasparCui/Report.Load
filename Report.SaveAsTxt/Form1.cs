@@ -78,5 +78,15 @@ namespace Report.SaveAsTxt
             }
 
         }
+
+        private void XlsxFilePathTextBox_TextChanged(object sender, EventArgs e)
+        {
+            xlsxFileFullPath = XlsxFilePathTextBox.Text;
+        }
+
+        private void ExportPathText_TextChanged(object sender, EventArgs e)
+        {
+            exportFolderPath = ExportPathText.Text;
+        }
     }
 }
